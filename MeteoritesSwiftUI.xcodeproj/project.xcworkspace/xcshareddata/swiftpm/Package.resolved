@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BottomSheet",
+        "repositoryURL": "git@github.com:max9631/BottomSheetSwiftUI.git",
+        "state": {
+          "branch": "develop",
+          "revision": "ff37471db25de4881e525f07f87e3ff91c43c71e",
+          "version": null
+        }
+      },
+      {
+        "package": "DynamicContent",
+        "repositoryURL": "git@github.com:max9631/DynamicContentSwiftUI.git",
+        "state": {
+          "branch": "develop",
+          "revision": "6efd81bdd710f9cb193f4383a7e354596fac7702",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
