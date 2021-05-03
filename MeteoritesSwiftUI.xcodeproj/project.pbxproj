@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B02BC8FC263FDF710010FA77 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02BC8FB263FDF710010FA77 /* MapView.swift */; };
+		B02BC8FE263FDF820010FA77 /* MeteoriteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02BC8FD263FDF820010FA77 /* MeteoriteListView.swift */; };
+		B02BC900263FDFCE0010FA77 /* MeteoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02BC8FF263FDFCE0010FA77 /* MeteoriteView.swift */; };
+		B02BC902263FDFEC0010FA77 /* MeteoriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02BC901263FDFEC0010FA77 /* MeteoriteListCell.swift */; };
 		B02CA047263360FB00C41B78 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = B02CA046263360FB00C41B78 /* BottomSheet */; };
 		B02CA04B2633610E00C41B78 /* DynamicContent in Frameworks */ = {isa = PBXBuildFile; productRef = B02CA04A2633610E00C41B78 /* DynamicContent */; };
+		B02E10CC263C98F200994D4E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E10CB263C98F200994D4E /* AppModel.swift */; };
+		B04A500F2639E91E000363A7 /* Meteorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A500E2639E91E000363A7 /* Meteorite.swift */; };
+		B04A50112639EDDD000363A7 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A50102639EDDD000363A7 /* URL+Extensions.swift */; };
+		B04A50132639EE02000363A7 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A50122639EE02000363A7 /* AppError.swift */; };
 		B0C8C24E263360C400D46BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8C24D263360C400D46BF0 /* AppDelegate.swift */; };
 		B0C8C250263360C400D46BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8C24F263360C400D46BF0 /* SceneDelegate.swift */; };
-		B0C8C252263360C400D46BF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8C251263360C400D46BF0 /* ContentView.swift */; };
 		B0C8C254263360C500D46BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C8C253263360C500D46BF0 /* Assets.xcassets */; };
 		B0C8C257263360C500D46BF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C8C256263360C500D46BF0 /* Preview Assets.xcassets */; };
 		B0C8C25A263360C500D46BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C8C258263360C500D46BF0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B02BC8FB263FDF710010FA77 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B02BC8FD263FDF820010FA77 /* MeteoriteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteListView.swift; sourceTree = "<group>"; };
+		B02BC8FF263FDFCE0010FA77 /* MeteoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteView.swift; sourceTree = "<group>"; };
+		B02BC901263FDFEC0010FA77 /* MeteoriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteListCell.swift; sourceTree = "<group>"; };
 		B02CA04D2633611D00C41B78 /* DynamicContentSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DynamicContentSwiftUI; path = ../DynamicContentSwiftUI; sourceTree = "<group>"; };
 		B02CA04F2633612300C41B78 /* BottomSheetSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BottomSheetSwiftUI; path = ../BottomSheetSwiftUI; sourceTree = "<group>"; };
+		B02E10CB263C98F200994D4E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B04A500E2639E91E000363A7 /* Meteorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteorite.swift; sourceTree = "<group>"; };
+		B04A50102639EDDD000363A7 /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		B04A50122639EE02000363A7 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		B0C8C24A263360C400D46BF0 /* MeteoritesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteoritesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C8C24D263360C400D46BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0C8C24F263360C400D46BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0C8C251263360C400D46BF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0C8C253263360C500D46BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C8C256263360C500D46BF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0C8C259263360C500D46BF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +57,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B02BC8FA263FDF3E0010FA77 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B02BC8FB263FDF710010FA77 /* MapView.swift */,
+				B02BC8FD263FDF820010FA77 /* MeteoriteListView.swift */,
+				B02BC901263FDFEC0010FA77 /* MeteoriteListCell.swift */,
+				B02BC8FF263FDFCE0010FA77 /* MeteoriteView.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		B02E10CD263CA48200994D4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B04A50102639EDDD000363A7 /* URL+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B02E10CF263CA49C00994D4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B04A500E2639E91E000363A7 /* Meteorite.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B02E10D0263CA4A300994D4E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B04A50122639EE02000363A7 /* AppError.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		B0C8C241263360C400D46BF0 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +115,11 @@
 			children = (
 				B0C8C24D263360C400D46BF0 /* AppDelegate.swift */,
 				B0C8C24F263360C400D46BF0 /* SceneDelegate.swift */,
-				B0C8C251263360C400D46BF0 /* ContentView.swift */,
+				B02E10CB263C98F200994D4E /* AppModel.swift */,
+				B02E10D0263CA4A300994D4E /* Common */,
+				B02E10CF263CA49C00994D4E /* Model */,
+				B02E10CD263CA48200994D4E /* Extensions */,
+				B02BC8FA263FDF3E0010FA77 /* Scene */,
 				B0C8C253263360C500D46BF0 /* Assets.xcassets */,
 				B0C8C258263360C500D46BF0 /* LaunchScreen.storyboard */,
 				B0C8C25B263360C500D46BF0 /* Info.plist */,
@@ -161,9 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04A500F2639E91E000363A7 /* Meteorite.swift in Sources */,
+				B02BC902263FDFEC0010FA77 /* MeteoriteListCell.swift in Sources */,
+				B02BC8FC263FDF710010FA77 /* MapView.swift in Sources */,
+				B02E10CC263C98F200994D4E /* AppModel.swift in Sources */,
+				B04A50132639EE02000363A7 /* AppError.swift in Sources */,
+				B02BC8FE263FDF820010FA77 /* MeteoriteListView.swift in Sources */,
 				B0C8C24E263360C400D46BF0 /* AppDelegate.swift in Sources */,
 				B0C8C250263360C400D46BF0 /* SceneDelegate.swift in Sources */,
-				B0C8C252263360C400D46BF0 /* ContentView.swift in Sources */,
+				B02BC900263FDFCE0010FA77 /* MeteoriteView.swift in Sources */,
+				B04A50112639EDDD000363A7 /* URL+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
